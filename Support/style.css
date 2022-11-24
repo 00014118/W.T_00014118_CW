@@ -197,3 +197,10 @@ select{
     color: #ffffff;
     opacity: 0.7;
 }
+option{
+    color: #d1aa65;
+}
+
+select{
+    color: #d1aa65;
+}
