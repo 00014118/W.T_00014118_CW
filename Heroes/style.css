@@ -10,6 +10,13 @@ body{
   
 }
 
+@font-face {
+    font-family: 'Friz Quadrata';
+    src: url(../fonts/FrizQua-ReguOS.woff);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 header{
     height: 5vh;
     background-color: black;

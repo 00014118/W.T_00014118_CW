@@ -12,29 +12,13 @@ body{
     height: 100vh;
 }
 
-
-
-@media screen and (max-width: 330px) {
-    html {
-        width: 330px;
-        overflow: auto;
-    }
-  }
-@media screen and (max-height: 400px) {
-    html {
-        height: 400px;
-        overflow: auto;
-    }
-  }
-
-
-    @font-face {
-        font-family: 'Friz Quadrata';
-        src: url('../Fonts/FrizQua-ReguOS.woff');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
+@font-face {
+    font-family: 'Friz Quadrata';
+    src: url(../fonts/FrizQua-ReguOS.woff);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
     
 
 .login img{
