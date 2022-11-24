@@ -3,9 +3,14 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Friz Quadrata';
-    background-color: white;
+    background-image: url('../images/bgmain.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     height: 100vh;
+    backdrop-filter: blur(3px);
 
   
 }
@@ -165,7 +170,7 @@ h2{
 
 .heroes P {
     
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
     border: #d1aa65 solid 1px;
     border-radius: 20px;
     text-indent: 20px;

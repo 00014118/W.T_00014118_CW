@@ -3,9 +3,14 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Friz Quadrata';
-    background-color: white;
+    background-image: url('../images/bgmain.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     height: 100vh;
+    backdrop-filter: blur(7px);
 
   
 }
@@ -119,6 +124,7 @@ textarea{
     margin-top:20px ;
     resize: none;
     font-family: 'Friz Quadrata';
+    font-size: 15px;
     padding: 10px;
     border-radius: 20px;
     border: solid 0.5px #d1aa65 ; 
@@ -138,7 +144,7 @@ align-items: center;
     margin: 2rem 10px 0 0;
     width: 8rem;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border: solid 1px  #d1aa65;
     font-family: 'Friz Quadrata';
     font-size: 1rem;
@@ -186,4 +192,8 @@ select{
     margin-bottom: 0;
     opacity: 1;
     color: black;
+}
+.feedback span{
+    color: #ffffff;
+    opacity: 0.7;
 }
