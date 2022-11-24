@@ -1,0 +1,244 @@
+body{
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Friz Quadrata';
+    background-color: white;
+    position: relative;
+    height: 100vh;
+
+  
+}
+
+header{
+    height: 5vh;
+    background-color: black;
+}
+
+header ul {
+    margin: 0;
+    height: 5vh;
+    padding: 0 3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+header li{
+   
+    color: white;
+    opacity: 0.6;
+    height: vh;
+}
+
+header li:hover{
+    opacity: 1;
+}
+
+
+header :first-child{
+    margin-left: 1rem;
+}
+
+header :last-child{
+    margin-right: 1rem;
+}
+
+
+
+
+.content{
+    height: 85vh;
+    border: #d1aa65 solid 1px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.bottom{
+    background-color: black;
+    height: 10vh;
+}
+
+footer{
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+   
+    bottom: 0;
+    right: 0;
+    justify-content: right;
+    
+
+}
+
+footer p{
+    font-size: 3rem;
+    color: white;
+    font-size: 0.6rem;
+    text-align: right;
+    opacity: 0.3;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    justify-content: flex-end;
+}
+
+footer li{
+    color: white;
+    opacity: 0.6;
+    margin: 0  0  0 1rem;
+    
+}
+
+footer li:hover{
+    opacity: 1;
+}
+
+span{
+    color: #d1aa65 ;  
+    opacity: 0.6;
+}
+
+/* CONTENT */
+
+.content ul a{
+    width: 10vw;
+    height: 50vh;
+   display: flex;
+    
+
+}
+
+.heroes{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+
+
+}
+
+.classes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    align-items: center;
+}
+
+.heroes img{
+    max-width: 15vw;
+    
+    border: #d1aa65 solid 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: #d1aa65 ; ;
+    
+    text-align: center;
+}
+
+h2{
+    font-size: 2vh;
+    color: #d1aa65 ;
+    
+    text-align: center;
+}
+
+
+.heroes P {
+    
+    color: rgb(0, 0, 0);
+    border: #d1aa65 solid 1px;
+    border-radius: 20px;
+    text-indent: 20px;
+   
+    justify-content: flex-end;
+   
+    position: absolute;
+    padding: 20px;
+    
+    
+    margin-left: 10vw;
+    margin-right: 10vw;
+    bottom: -10rem;
+    
+    left: 0;
+    right: 0;
+    text-align: center;
+   
+    
+}
+
+.supp{
+    display: none; 
+}
+
+.supa:hover + .supp{
+    display: flex;
+    
+}
+.supa:hover{
+    
+    border: #d1aa65 solid 1px;
+    
+    
+}
+
+
+
+.killp{
+    display: none;
+    
+} 
+
+.killa:hover + .killp{
+    display: flex;
+}
+.killa:hover{
+    border: #d1aa65 solid 1px;}
+
+
+.gunp{
+    display: none;
+    
+}
+.guna:hover + .gunp{
+    display: flex;
+
+    
+}
+.guna:hover{
+    border: #d1aa65 solid 1px;
+}
+.warp{
+    display: none;
+   
+}
+.wara:hover+ .warp{
+    display: flex;
+}
+
+.wara:hover {
+    border: #d1aa65 solid 1px;
+}
+.wizp{
+    display: none;
+    
+}
+.wiza:hover + .wizp{
+    display: flex;
+}
+.wiza:hover{
+    border: #d1aa65 solid 1px;
+}

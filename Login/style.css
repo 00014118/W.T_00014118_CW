@@ -1,0 +1,189 @@
+body{
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Friz Quadrata';
+    background-image: url('../images/bg1.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+
+
+@media screen and (max-width: 330px) {
+    html {
+        width: 330px;
+        overflow: auto;
+    }
+  }
+@media screen and (max-height: 400px) {
+    html {
+        height: 400px;
+        overflow: auto;
+    }
+  }
+
+
+    @font-face {
+        font-family: 'Friz Quadrata';
+        src: url('../Fonts/FrizQua-ReguOS.woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+
+.login img{
+    width: 6rem;
+}
+
+img{
+    width: 12rem;
+}
+.windowlogin{
+    margin: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+
+.login{
+   
+    padding:   0.7rem 7rem ;
+    border: solid 1px #d1aa65 ; 
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5px) ;
+    position: relative;
+
+}
+
+input{
+    font-family: 'Friz Quadrata';
+    display: block;
+    border-radius: 10px;
+    border: solid 0.5px #d1aa65 ; 
+    padding: 3px 10px;
+    color: #d1aa65;
+}
+
+
+
+button{
+    color: white;
+    border: solid 1px  #d1aa65;
+    font-family: 'Friz Quadrata';
+    font-size: 1rem;
+    backdrop-filter:blur(20px);
+    padding: 2px 12px;
+    border-radius: 10px;
+    background: none;
+    background-color: black 0.7; 
+    opacity: 0.8; 
+    
+}
+    
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #d1aa65 ;  
+    opacity: 1;
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+    align-items: center;
+    
+}
+
+nav p{
+        font-size: 1.3rem;
+        margin: 0;
+    
+}
+
+footer{
+    margin: 1rem 1.5rem 0 1.5rem ;  
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: right;
+
+}
+
+footer p{
+    font-size: 0.6rem;
+    text-align: right;
+    opacity: 0.3;
+
+}
+
+p{
+    text-align: center;
+    color: white;
+
+}
+
+.login p{
+    margin: 0.25rem;
+    opacity: 0.8;
+}
+
+a{  color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    opacity: 1;
+    
+}
+nav a{
+opacity: 0.6;
+
+}
+.username{
+    margin-top: 0.5rem;
+ 
+}
+
+.password{
+    margin-bottom: 2rem;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    justify-content: flex-end;
+}
+
+li{
+    opacity: 0.6;
+    margin: 0  0  0 1rem;
+}
+
+li:hover{
+    opacity: 1;
+}
+
+

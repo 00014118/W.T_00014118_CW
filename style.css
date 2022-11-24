@@ -1,0 +1,205 @@
+body{
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    font-family: 'Friz Quadrata';
+    background-color: #ffffff;
+    position: relative;
+    height: 100vh;
+    
+
+    
+  
+}
+
+header{
+    height: 5vh;
+    background-color: black;
+}
+
+header ul {
+    margin: 0;
+    height: 5vh;
+    padding: 0 3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+header li{
+   
+    color: white;
+    opacity: 0.6;
+    height: vh;
+}
+
+header li:hover{
+    opacity: 1;
+}
+
+
+header :first-child{
+    margin-left: 1rem;
+}
+
+header :last-child{
+    margin-right: 1rem;
+}
+
+
+.content{
+    height: 85vh;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.bottom{
+    background-color: black;
+    height: 10vh;
+}
+
+footer{
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+   
+    bottom: 0;
+    right: 0;
+    justify-content: right;
+    
+
+}
+
+footer p{
+    font-size: 3rem;
+    color: white;
+    font-size: 0.6rem;
+    text-align: right;
+    opacity: 0.3;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    justify-content: flex-end;
+}
+
+footer li{
+    color: white;
+    opacity: 0.6;
+    margin: 0  0  0 1rem;
+    
+}
+
+footer li:hover{
+    opacity: 1;
+}
+
+/* CONTENT */
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: #d1aa65 solid 1px;
+    
+}
+img{
+    left: 25%;
+    top: 3vw;
+    width: 40vmin;
+    position: absolute;
+    
+
+    
+}
+
+.media{
+    height: 42vmin;
+    width: 80vmin;
+    position: relative;
+    
+}
+video{
+    
+    height: 43vmin;
+    width: 80vmin;
+    position: absolute;
+
+
+
+
+}
+
+button{
+    width: 8rem;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 15vmin;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 100px;
+
+   
+    position: absolute;
+    bottom: 1vw;
+   
+    
+    color: rgb(0, 0, 0);
+    border: solid 1px  #d1aa65;
+    font-family: 'Friz Quadrata';
+    font-size: 1rem;
+    
+    padding: 2px 12px;
+    border-radius: 10px;
+    background: none;
+    opacity: 0.8;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #d1aa65 ;
+    color: #ffffff ;  
+    opacity: 1;
+}
+
+
+
+
+.content h1{
+    color: #d1aa65 ; ;
+  margin: 0;
+  opacity: 1;
+}
+
+span{
+    color: #d1aa65 ;  
+    opacity: 0.6;
+}
+   
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: #d1aa65 solid 1px;
+    border-radius: 25px;
+    color: #000000;
+    text-indent: 50px;
+    margin: 0 10vw 0 10vw;
+    padding: 10px;
+    
+}
+
