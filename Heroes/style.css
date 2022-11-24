@@ -186,13 +186,10 @@ h2{
 
 .supa:hover + .supp{
     display: flex;
-    
 }
 .supa:hover{
     
     border: #d1aa65 solid 1px;
-    
-    
 }
 
 
